@@ -3,6 +3,7 @@ import {ionicBootstrap, Platform, MenuController, Nav} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {HelloIonicPage} from './pages/hello-ionic/hello-ionic';
 import {ListPage} from './pages/list/list';
+import {BuscarPage} from './pages/buscar/buscar';
 
 
 @Component({
@@ -24,7 +25,8 @@ class MyApp {
     // set our app's pages
     this.pages = [
       { title: 'Hola ionic', component: HelloIonicPage },
-      { title: 'Mi Primera Lista', component: ListPage }
+      { title: 'Mi Primera Lista', component: ListPage },
+        { title: 'Buscar', component: BuscarPage }
     ];
   }
 
